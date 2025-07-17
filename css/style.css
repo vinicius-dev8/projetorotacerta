@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background: linear-gradient(#003366, #004e9c);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    word-spacing: 20px;
+    font-size: 1.4rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    width: 350px;
+    border-radius: 5px;
+}
+
+footer {
+    background: linear-gradient(#004e9c, #002549 );
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+
+section {
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.grid div {
+    background: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.grid div img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.fotos_1{
+    width: 200px;
+}
+
+.grid_2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.grid_2 div {
+    padding: 0px;
+    border-radius: 4px;
+    width: 140px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid_2 div img {
+    width: 150px;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.grid_2 div img:hover {
+    opacity: 70%;
+}
+
+.logo_redes{
+    width: 100px;
+}
+
+.links{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
